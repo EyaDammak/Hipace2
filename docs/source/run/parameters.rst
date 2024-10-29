@@ -908,10 +908,10 @@ Parameters starting with ``lasers.`` apply to all laser pulses, parameters start
           In what follows, all chirps are given as defined in `S. Akturk et al., Optics Express 12, 4399 (2004) <https://doi.org/10.1364/OPEX.12.004399>`__.
 
       * ``<laser name>.beta`` (`float`) optional (default `0.`)
-          Angular dispersion (or angular chirp) at focus defined by `S. Akturk et al., Optics Express 12, 4399 (2004) <https://doi.org/10.1364/OPEX.12.004399>`__.
+          Angular dispersion (or angular chirp) at focus.
 
       * ``<laser name>.zeta`` (`float`) optional (default `0.`)
-          Spatial chirp at focus defined by `S. Akturk et al., Optics Express 12, 4399 (2004) <https://doi.org/10.1364/OPEX.12.004399>`__.
+          Spatial chirp at focus.
 
       * ``<laser name>.phi2`` (`float`) optional (default `pi/2`)
           The amount of temporal chirp :math:`\phi^{(2)}` at focus (in the lab frame).
