@@ -901,7 +901,7 @@ Parameters starting with ``lasers.`` apply to all laser pulses, parameters start
           Distance at which the laser pulse is focused (in the z direction, counted from laser initial position).
 
       * ``<laser name>.propagation_angle_yz`` (`float`) optional (default `0`)
-          Propagation angle of the pulse in the yz plane (0 is along z axis)
+          Propagation angle of the pulse in the yz plane (0 is along the z axis)
 
       * ``<laser name>.STC_theta_xy`` (`float`) optional (default `pi/2`)
           Direction of the linear spatial and angular chirp on xoy plane (0 is along x axis).
