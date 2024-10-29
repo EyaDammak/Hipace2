@@ -9,7 +9,7 @@
 
 
 # This file is part of the HiPACE++ test suite.
-# It initializes a Hipace simulation of a gaussian laser with initial STC parameters
+# It initializes a Hipace simulation of a gaussian laser with initial spatiotemporal couplings (STCs)
 # and test the correctness of the STC factors
 
 # Abort on first encountered error
