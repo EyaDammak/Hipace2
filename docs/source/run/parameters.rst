@@ -929,8 +929,6 @@ Parameters starting with ``lasers.`` apply to all laser pulses, parameters start
 
                \tau' = \sqrt{ \tau^2 + 4 (\phi^{(2)})^2/\tau^2 }
 
-         See also the definition in `S. Akturk et al., Optics Express 12, 4399 (2004) <https://doi.org/10.1364/OPEX.12.004399>`__.
-
       Option: ``from_file`` the laser is loaded from an openPMD file
 
       * ``<laser name>.input_file`` (`string`) optional (default `""`)
