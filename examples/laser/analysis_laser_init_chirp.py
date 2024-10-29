@@ -75,7 +75,7 @@ parser.add_argument('--output-dir',
 parser.add_argument('--chirp_type',
                     dest='chirp_type',
                     default='phi2',
-                    help='the type of the initialized chirp')
+                    help='Type of the initialized chirp')
 args = parser.parse_args()
 
 ts = LpaDiagnostics(args.output_dir)
