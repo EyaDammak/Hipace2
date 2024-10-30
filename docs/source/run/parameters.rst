@@ -908,13 +908,13 @@ Parameters starting with ``lasers.`` apply to all laser pulses, parameters start
           In what follows, all chirps are given as defined in `S. Akturk et al., Optics Express 12, 4399 (2004) <https://doi.org/10.1364/OPEX.12.004399>`__.
 
       * ``<laser name>.beta`` (`float`) optional (default `0.`)
-          Angular dispersion (or angular chirp) at focus in second.
+          Angular dispersion (or angular chirp) at focus in :math:`second`.
 
       * ``<laser name>.zeta`` (`float`) optional (default `0.`)
-          Spatial chirp at focus in second*meter. 
+          Spatial chirp at focus in :math:`second \cdot meter`. 
 
       * ``<laser name>.phi2`` (`float`) optional (default `pi/2`)
-          Temporal chirp :math:`\phi^{(2)}` at focus in second^2.
+          Temporal chirp :math:`\phi^{(2)}` at focus in :math:`second^2`.
           Namely, a wave packet centered on the frequency :math:`(\omega_0 + \delta \omega)` will reach its peak intensity at :math:`z(\delta \omega) = z_0 - c \phi^{(2)} \, \delta \omega`.
           Thus, a positive :math:`\phi^{(2)}` corresponds to positive chirp, i.e., red part of the spectrum in the front of the pulse and blue part of the spectrum in the back.
           More specifically, the electric field in the focal plane is of the form:
