@@ -911,7 +911,7 @@ Parameters starting with ``lasers.`` apply to all laser pulses, parameters start
           Angular dispersion (or angular chirp) at focus in :math:`second`.
 
       * ``<laser name>.zeta`` (`float`) optional (default `0.`)
-          Spatial chirp at focus in :math:`second \cdot meter`. 
+          Spatial chirp at focus in :math:`second \cdot meter`.
 
       * ``<laser name>.phi2`` (`float`) optional (default `pi/2`)
           Temporal chirp :math:`\phi^{(2)}` at focus in :math:`second^2`.
